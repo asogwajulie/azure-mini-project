@@ -3,47 +3,55 @@
 ## Project Overview
 This project demonstrates hands-on practice with Microsoft Azure by exploring core cloud concepts such as account setup, governance, identity management, resource deployment, and cost monitoring.
 
----
+## Project Objectives
+The objectives of this project were to:
 
-## Tasks Completed
+- Create and verify a Microsoft Azure Free Tier account.
+- Explore and navigate the Azure Portal.
+- Understand Azure subscriptions and resource groups.
+- Learn basic Identity and Access Management (IAM) concepts.
+- Configure cost monitoring and budget alerts.
+- Deploy a cloud resource.
+- Explore Azure regions and availability zones.
+- Understand the Shared Responsibility Model in cloud computing.
 
-### 1. Azure Account Creation
-A Microsoft Azure account was created and successfully verified.
+## Account Creation Process
+Step 1: Microsoft Account Sign-In
 
-Here is the Azure Account Creation Process
-
-Step 1: Create Microsoft Account
-Visited Azure Free Account page.
-Signed in using Microsoft account.
+Visited the Azure Free Account page and signed in using a Microsoft account.
 
 Step 2: Email Verification
-Azure sent a verification code.
-Entered code successfully.
+
+Verified my email address using the code sent by Microsoft.
 
 Step 3: Phone Verification
-Selected Nigeria as country.
-Received SMS verification code.
-Entered code to verify identity.
 
-Step 4: Payment Verification
-Added debit/credit card.
-Azure performed identity verification.
-No charges were incurred during Free Tier activation.
+Verified my identity using an SMS code sent to my mobile phone.
 
-Step 5: Account Activation
-Azure subscription was created.
-Accessed Azure Portal.
----
+Step 4: Payment Method Verification
 
-### 2. Portal Exploration
-I explored the Azure Portal dashboard, including:
-- Navigation menu
-- Service search bar
-- Home dashboard layout
-- Core Azure services overview
+Added a valid debit card for identity verification purposes.
 
-### 3. Azure Free Teir Benefits
+Step 5: Azure Subscription Activation
 
+Successfully activated the Azure Free Tier subscription and gained access to the Azure Portal.
+
+## Azure Portal Exploration
+The Azure Portal serves as the central management interface for Azure resources.
+
+During exploration, I became familiar with:
+
+Home Dashboard
+Search Bar
+Resource Groups
+Storage Accounts
+Virtual Machines
+Microsoft Entra ID
+Cost Management + Billing
+Azure Monitor
+I also created a custom dashboard to improve accessibility to frequently used resources.
+
+## Azure Free Tier Benefits
 | Service            | Free Limit                 |
 | ------------------ | -------------------------- |
 | Credit             | $200 for first 30 days     |
@@ -52,69 +60,94 @@ I explored the Azure Portal dashboard, including:
 | Azure SQL Database | 250 GB                     |
 | Functions          | 1 million executions/month |
 | Bandwidth          | 15 GB outbound/month       |
+Free Tier Summary
+$200 free credit available for the first 30 days.
+Access to popular Azure services free for 12 months.
+Certain services remain free with monthly limits.
 
-
----
-
-### 3. Governance Setup
+## Subscription and Resource Group
 - Identified the primary Azure Subscription
 - Created a Resource Group to serve as a logical container for deployed resources
 
----
+## Region Selection
 
-### 4. Identity Awareness (Azure Active Directory / Entra ID)
-I explored Azure Active Directory (now Microsoft Entra ID), including:
-- User management section
-- Role-Based Access Control (RBAC) overview
-- Basic identity and access documentation
+South Africa North
 
----
+Reason for Selection
 
-### 5. Region Selection
-The region closest to my location (Nigeria) was identified as:
+South Africa North was selected because it is geographically closer to Nigeria, which helps reduce network latency and improve performance.
+Availability Zones
+Azure Availability Zones provide redundancy and high availability by distributing resources across physically separate datacenters within the same region.
 
-**Preferred Azure Region:** UK South / West Europe
-
-These regions were selected due to lower latency and better performance accessibility for West Africa users.
-
----
-
-### 6. Resource Deployment
+## Resource Deployment
 A basic Azure resource was deployed to understand the provisioning process:
 - Resource Type: (Virtual Machine / Storage Account)
 - Configuration workflow was completed successfully
 - Resource was validated and deployed via Azure Portal
 
----
+## Cost Management and Budget Alerts
+Azure Cost Management tools were explored to understand spending control and budget monitoring.
 
-### 7. Cost Monitoring Setup
+Budget Configuration
+Setting	Value
+Budget Amount	$50
+Alert Threshold	75%
+Alert Trigger	$38.00
+Benefits
+Prevents unexpected charges.
+Monitors cloud resource consumption.
+Supports adherence to Free Tier limits.
+
+## Cost Monitoring Setup
 The Cost Management + Billing section was explored:
 - Budget tools were reviewed
 - Cost analysis dashboard was accessed
 - Free Tier usage monitoring options were identified
 
----
+##  Screenshots Evidence Submitted
+Active Azure Subscription
+Azure Portal Dashboard
+Resource Group
+Storage Account
+Region Selection
+Cost Analysis
+Budget Alert 
 
-## Evidence Submitted
-The following screenshots are included in this repository:
+## Troubleshooting
+- Phone Verification Issues
+Wait several minutes and request a new verification code.
+- Payment Method Verification Failed
+Ensure the card supports international online transactions.
+- Resource Deployment Validation Error
+Verify naming conventions, resource quotas, and region availability.
+- Budget Not Displaying
+Allow several minutes for Azure Cost Management to update.
 
-- Azure active subscription dashboard (`Active Subscription.png`)
-- Created resource group (`Resource group.png`)
-- Budget/cost management section (`Budget.png`)
-
----
+## Completion Checklist
+ Azure Free Tier account created
+ Email verified
+ Phone verified
+ Payment method verified
+ Azure Portal explored
+ Resource Group created
+ Region selected
+ Resource deployed
+ Cost Management explored
+ Budget configured
+ Budget alert configured
+ Custom dashboard created
+ Shared Responsibility Model reviewed
+ Project documentation completed.
 
 ## Summary Report
 A detailed summary report is included in the file:
 - `summary-report.md`
-
 It contains:
 - Selected Azure region justification
 - Explanation of the Shared Responsibility Model
 - Overview of deployed resources
 
 ---
-
 ## Conclusion
 This project provided practical exposure to Azure cloud fundamentals, including governance, identity management, resource deployment, and cost monitoring. It demonstrates foundational understanding of cloud infrastructure operations.
 
